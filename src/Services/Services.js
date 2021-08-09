@@ -1,9 +1,10 @@
 import React from 'react'
 import './Services.css'
+import Portfolio from '../Portfolio/Portfolio.js'
 
 const Services=()=>{
     return(
-        <div>
+        <div id="services">
             <div className="services">
             <div className="break"></div>
             <div className="services_content">
@@ -50,6 +51,7 @@ const Services=()=>{
             </div>
             </div>
             </div>
+            <Portfolio />
         </div>
     )
 }
