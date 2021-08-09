@@ -16,12 +16,48 @@ const Portfolio=()=>{
             <a>Mockups</a>
             </div>
             <div className="cards">
-            <img src="works/first.jpeg" alt="" />
-            <img src="works/banana.jpeg" alt="" />
-            <img src="works/coffee.jpeg" alt="" />
-            <img src="works/time.jpeg" alt="" />
-            <img src="works/package.jpeg" alt="" />
-            <img src="works/suit.jpeg" alt="" />
+            <div className="cards_content">
+            <img src="works/first.jpeg" alt="first" />
+            <div className="cards_about">
+            <h4>Wine</h4>
+            <p>ui/ux design</p>
+            </div>
+            </div>
+            <div className="cards_content">
+            <img src="works/coffee.jpeg" alt="first" />
+            <div className="cards_about">
+            <h4>Coffee</h4>
+            <p>mockups</p>
+            </div>
+            </div>
+            <div className="cards_content">
+            <img src="works/suit.jpeg" alt="first" />
+            <div className="cards_about">
+            <h4>Suit</h4>
+            <p>web design</p>
+            </div>
+            </div>
+            <div className="cards_content">
+            <img src="works/time.jpeg" alt="first" />
+            <div className="cards_about">
+            <h4>Time</h4>
+            <p>ui/ux design</p>
+            </div>
+            </div>
+            <div className="cards_content">
+            <img src="works/banana.jpeg" alt="first" />
+            <div className="cards_about">
+            <h4>Banana</h4>
+            <p>mockups</p>
+            </div>
+            </div>
+            <div className="cards_content">
+            <img src="works/package.jpeg" alt="first" />
+            <div className="cards_about">
+            <h4>Package</h4>
+            <p>web design</p>
+            </div>
+            </div>
             </div>
             <a className="view_btn">View All</a>
             </div>
