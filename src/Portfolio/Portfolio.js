@@ -1,4 +1,5 @@
 import React from 'react';
+import Pricing from '../Pricing Plan/Pricing';
 import './Portfolio.css'
 
 const Portfolio=()=>{
@@ -61,6 +62,7 @@ const Portfolio=()=>{
             </div>
             <a className="view_btn">View All</a>
             </div>
+            <Pricing />
             </div>
     )
 }

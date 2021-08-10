@@ -1,0 +1,93 @@
+.pricing_plan{
+    background-color: #f0f1f1;
+}
+.pricing_plan p{
+    margin-bottom: 100px;
+}
+
+.pricing_cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+    width: 100%;
+}
+
+.pricing_card{
+    margin-left: 20px;
+    background: url('card.jpg');
+    width: 370px;
+    height: 665px;
+    background-repeat: no-repeat;
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.pricing_card:hover{
+    box-shadow: 0px 0px 10px 5px silver;
+    background-repeat: no-repeat;
+    transition: .40s;
+}
+
+.pricing_card p{
+    margin:25px 0;
+    font-size:25px;
+    align-items: center;
+    width: auto;
+}
+
+.price{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+}
+
+.price p:nth-child(2){
+    font-size: 50px;
+}
+.price p:nth-child(3){
+    display: inline;
+    font-size:17px;
+    display: flex;
+    align-items: flex-end;
+    height: 40%;
+}
+
+.price_about{
+    margin: 30px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.price_about p{
+    font-size: 17px;
+    color:#212121;
+    border-bottom: 1px solid #bfbfbf;
+    width: 50%;
+    padding-bottom: 10px;
+}
+
+.price_order{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.price_order a{
+    color:#212121;
+    font-size:20px;
+    border:2px solid #212121;
+    padding:15px 35px;
+    cursor: pointer;
+}
+
+.price_order a:hover{
+    border:2px solid #00897b;
+    background-color:#00897b;
+    text-transform: uppercase;
+    color:white;
+    transition: .25s;
+}
