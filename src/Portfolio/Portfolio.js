@@ -4,7 +4,7 @@ import './Portfolio.css'
 
 const Portfolio=()=>{
     return(
-        <div>
+        <div id="portfolio">
             <div className="break"></div>
             <div className="services_content">
                 <h2>Latest Works</h2>

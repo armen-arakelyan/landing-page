@@ -1,4 +1,5 @@
 import React from 'react';
+import Blog from '../Blog/Blog';
 import './Team.css';
 
 const Team=()=>{
@@ -49,6 +50,7 @@ const Team=()=>{
                 <p></p>
              </div>
             </div>
+            <Blog />
         </div>
     )
 }

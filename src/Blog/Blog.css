@@ -1,0 +1,92 @@
+.blog{
+    background-color:#e4fdf9;
+}
+.blog_cards{
+    margin:120px 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.blog_card{
+    display: flex;
+    margin-left:110px;
+}
+.blog_img{
+    background: url('blog/seo.jpg');
+    width: 550px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.blog_img:nth-child(2){
+    background: url('blog/first_mac.jpg');
+}
+
+.blog_img_3{
+    background: url('blog/second_mac.jpg');
+    width: 550px;
+    height: 400px;
+    background-repeat: no-repeat;
+    margin-bottom: 10px;
+}
+
+.blog_card_content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-top: 60px;
+    width: 35%;
+}
+
+.blog_card_content h2{
+    font-size:25px;
+    cursor: pointer;
+}
+.blog_card_content h2:hover{
+    transition: .25s;
+    color:#00897b;
+}
+
+.blog_date{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.blog_date img{
+    width: 16px;
+    height: 16px;
+    margin-left:15px;
+}
+
+.blog_date img:first-child{
+    margin-left:0;
+}
+
+.blog_date b{
+    margin-left: 10px;
+    font-size:17px;
+}
+
+.blog_about p{
+    font-size:15px;
+    text-align:left;
+}
+
+.more_blog{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+
+.more_blog a{
+    background: #00897b;
+    color:white;
+    border:2px solid #00897b;
+    padding:20px 40px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 20px;
+}
