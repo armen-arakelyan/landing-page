@@ -7,9 +7,9 @@
     display: flex;
     flex-direction: column;
 }
-.blog_card{
+.blog_card{    
     display: flex;
-    margin-left:110px;
+    margin: 0 10px 0 110px;
 }
 .blog_img{
     background: url('blog/seo.jpg');

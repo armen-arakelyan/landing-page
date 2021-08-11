@@ -27,7 +27,6 @@ const Navbar=()=>{
     }
     return(
         <div className="navbar">
-            <div className="container">
             <div className="nav_distance">
             <div className="logo">
             <h2 onClick={toHome}>Your Logo</h2>
@@ -39,7 +38,6 @@ const Navbar=()=>{
             <a onClick={toPortfolio}>Portfolio</a>
             <a onClick={toBlog}>Blog</a>
             <a onClick={toContact}>Contact us</a>
-            </div>
             </div>
             </div>
         </div>

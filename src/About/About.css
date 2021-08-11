@@ -1,6 +1,5 @@
 .about{
     width: 100%;
-    height: 80vh;
 }
 .about_content{
     width: 100%;
@@ -55,6 +54,7 @@
 .icon_text{
     display:flex;
     justify-content: center;
+    margin-bottom: 120px;
 }
 .icon_text p{    
     width: 55%;

@@ -6,6 +6,7 @@ const About=()=>{
     return(
         <div id="about">
         <div className="about">
+            <div className="break" />
             <div className="about_content">
                 <div className="about_text">
                 <h2>About Us</h2>

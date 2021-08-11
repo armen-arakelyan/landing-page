@@ -5,7 +5,7 @@ import './Pricing.css'
 const Pricing=()=>{
     return(
         <div>
-        <div style={{background:"#f0f1f1"}} className="break"></div>
+        <div id="pricing" style={{background:"#f0f1f1"}} className="break"></div>
         <div className="services_content pricing_plan">
         <h2>Pricing Plan</h2>
          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
