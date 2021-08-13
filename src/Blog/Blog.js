@@ -1,8 +1,9 @@
-import React from 'react';
+import React,{useState} from 'react';
 import Contacts from '../Contact Us/Contacts';
 import './Blog.css'
 
 const Blog=()=>{
+    const [more,setMore]=useState(false)
     return(
         <div id="blog">
             <div className="services_content blog">
@@ -57,8 +58,54 @@ const Blog=()=>{
                 </div>
                 </div>
              </div>
+             <div style={{display:more?'flex':'none'}} className="blog_card">
+                <div className="blog_img" />
+                <div className="blog_card_content">
+                <h2>Seo Quis Vestibulum</h2>
+                <span className="blog_date">
+                <img src="blog_icons/date.png" />
+                <b>14.07.2017</b>
+                <img src="blog_icons/file.png" />
+                <b>Development</b>
+                </span>
+                <span className="blog_about">
+                <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                </span>
+                </div>
+                </div>
+                <div style={{display:more?'flex':'none'}} className="blog_card">
+                <div className="blog_card_content">
+                <h2>Seo Quis Vestibulum</h2>
+                <span className="blog_date">
+                <img src="blog_icons/date.png" />
+                <b>14.07.2017</b>
+                <img src="blog_icons/file.png" />
+                <b>Development</b>
+                </span>
+                <span className="blog_about">
+                <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                </span>
+                </div>
+                <div className="blog_img" />
+                </div>
+                <div style={{display:more?'flex':'none'}} className="blog_card">
+                <div className="blog_img_3" />
+                <div className="blog_card_content">
+                <h2>Seo Quis Vestibulum</h2>
+                <span className="blog_date">
+                <img src="blog_icons/date.png" />
+                <b>14.07.2017</b>
+                <img src="blog_icons/file.png" />
+                <b>Development</b>
+                </span>
+                <span className="blog_about">
+                <p>Dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat...</p>
+                </span>
+                </div>
+                </div>
+             
              <div className="more_blog">
-                <a>More View</a>
+                <a onClick={()=>setMore(!more)}>{more?'Small View':'More View'}</a>
             </div>
             </div>
             <Contacts />

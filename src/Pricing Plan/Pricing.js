@@ -38,7 +38,7 @@ const Pricing=()=>{
         <h2>
             {free?'Free Trial':''}
             {basic?'Basic':''}
-            {ultimate?'Ultimate':''}
+            {ultimate?'Ultimates':''}
         </h2> 
         <span className="price">
                 <p>$</p>

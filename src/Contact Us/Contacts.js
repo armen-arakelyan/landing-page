@@ -1,7 +1,15 @@
-import React from 'react';
+import React,{useState} from 'react';
 import './Contacts.css';
+import {useForm} from 'react-hook-form'
 
 const Contacts=()=>{
+    const [send,setSend]=useState(false);
+    const [close,setClose]=useState(false);
+    const {register,handleSubmit}=useForm();
+
+    const sendToContact=()=>{
+        setClose(true)
+    }
     return(
         <div>
             <div id="contact" className="contacts">
@@ -29,16 +37,32 @@ const Contacts=()=>{
             </div>
             </div>
             <div className="contact_form">
-                <div className="contact_form_inputs">
-                <input placeholder="Your NAME" />
-                <input placeholder="Your Email" />
+                <form className="contact_form_content" onSubmit={handleSubmit(sendToContact)}>
+                <div className="contact_form_places">
+                    <div className="contact_form_inputs">
+                    <input required {...register('name')} placeholder="Your Name" />
+                    <input required {...register('mail')} placeholder="Your Email" />
+                    </div>
+                <div className="write_message">
+                <textarea required  {...register('comment')} placeholder="Write Message" />
                 </div>
-            <textarea placeholder="Write Message" />
-            <div className="send_button">
-            <a>Send</a>
-            </div> 
+                <div className="send_button">
+                <button>Send</button>
+                </div> 
+                </div>
+                </form>
             <div className="footer">
             <b>All rights Reserved © 2017</b>
+            </div>
+            <div style={{display:close?'flex':'none'}} className="modal">
+                <div className="modal_contact">
+                    <div className="modal_close">
+                    <p onClick={()=>setClose(false)}>&#10006;</p>
+                    </div>
+                    <div className="modal_order">
+                    <h2>Sended Successfull</h2>
+                    </div>
+                </div>
             </div>
             </div>
             </div>

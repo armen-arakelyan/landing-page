@@ -118,7 +118,7 @@
     justify-content: flex-end;
 }
 
-.modal_close{
+.modal_close p{
     color:red;
     cursor: pointer;
     font-size:20px;

@@ -5,6 +5,8 @@
     background-color: white;
     color:#212121;
     z-index: 999;
+    display: flex;
+    justify-content: center;
 }
 .nav_distance{
     display: flex;
