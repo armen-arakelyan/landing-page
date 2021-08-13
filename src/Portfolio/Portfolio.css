@@ -62,7 +62,7 @@
 
 @media screen and (max-width:550px) {
     .btns a{
-        font-size:15px;
+        font-size:10px;
         padding:10px;
     }
 }

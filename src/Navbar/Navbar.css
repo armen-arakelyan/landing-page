@@ -9,9 +9,9 @@
 .nav_distance{
     display: flex;
     align-items: center;    
-    justify-content: space-between;
-    margin: 30px 50px 50px;
-    width: 90%;
+    justify-content: space-around;
+    height: 100%;
+    width: 100%;
 }
 .logo{
     cursor: pointer;
@@ -28,7 +28,7 @@
     font-size:25px;
 }
 
-@media screen and (max-width:850px) {
+@media screen and (max-width:1000px) {
     .logo h2{
         font-size:16px;
     }
@@ -37,11 +37,20 @@
     }
 }
 
-@media screen and (max-width:400px) {
+@media screen and (max-width:650px) {
     .logo h2{
-        font-size:14px;
+        font-size:12px;
     }
     .nav_items a{
-        font-size:10px;
+        font-size:8px;
+    }
+}
+
+@media screen and (max-width:550px){
+    .logo h2{
+        font-size:8px
+    }
+    .nav_items a{
+        font-size:6px;
     }
 }

@@ -13,10 +13,9 @@
 }
 
 .pricing_card{
-    margin-left: 20px;
+    margin: 0 20px;
     background: url('card.jpg');
     width: 370px;
-    height: 665px;
     background-repeat: no-repeat;
     color:white;
     display: flex;
@@ -82,6 +81,7 @@
     border:2px solid #212121;
     padding:15px 35px;
     cursor: pointer;
+    margin-bottom: 15px;
 }
 
 .price_order a:hover{
@@ -90,4 +90,86 @@
     text-transform: uppercase;
     color:white;
     transition: .25s;
+}
+
+.modal{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top:0;
+    left:0;
+    right: 0;
+    bottom: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_content{
+    width:50%;
+    height: 50%;
+    background-color: white;
+}
+.modal_close{
+    width: 99%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.modal_close{
+    color:red;
+    cursor: pointer;
+    font-size:20px;
+}
+
+.modal_order{
+    display: flex;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal_order h2{
+    margin-bottom: 50px;
+}
+
+.price_about input{
+    background: none;
+    border:none;
+    border-bottom: 1px solid silver;
+    padding:18px 0;
+    outline: none;
+    font-size:20px;
+}
+
+.price_about input:focus{
+    transition: .5s;
+    border-bottom: 1px solid #00897b;
+}
+
+.send_content{
+    width: 50%;
+    height: 50%;
+    background: white;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.send_content p{
+    margin:20px 0;
+}
+
+@media screen and (max-width:830px) {
+    .pricing_cards{
+        flex-direction: column;
+        align-items: center;
+    }
+    .pricing_card{
+        margin: 20px 0;
+    }
 }
