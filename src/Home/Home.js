@@ -8,7 +8,6 @@ const Home=()=>{
     return(
         <div>
         <Navbar />
-        <div className="break"></div>
         <div className="home">
         <div className="home_bg_color">
             <span className="home_text">
