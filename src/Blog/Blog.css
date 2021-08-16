@@ -89,3 +89,18 @@
     font-weight: 600;
     font-size: 20px;
 }
+
+@media screen and (max-width:1065px) {
+    .blog_card{
+        flex-direction: column;
+    }
+    .blog_img{
+        width: auto;
+    }
+    .blog_img_3{
+        width: auto;
+    }
+    .blog_date b{
+        font-size: 7px;
+    }
+}

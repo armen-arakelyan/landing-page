@@ -67,3 +67,12 @@
     flex-direction: column;
     align-items: center;
 }
+
+@media screen and (max-width:1065px) {
+    .icons_about{
+        width: auto;
+    }
+    .icon_text p{
+        letter-spacing: 0;
+    }
+}

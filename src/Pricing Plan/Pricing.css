@@ -171,5 +171,9 @@
     }
     .pricing_card{
         margin: 20px 0;
+        width: auto;
+    }
+    .price_about{
+        margin:10px 0;
     }
 }

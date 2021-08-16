@@ -132,3 +132,9 @@
     font-size:20px;
     color:#212121;
 }
+
+@media screen and (max-width:1065px) {
+    .contacts_adresses {
+        flex-direction: column;
+    }
+}
