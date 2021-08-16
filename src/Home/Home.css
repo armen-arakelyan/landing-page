@@ -44,10 +44,6 @@
     cursor: pointer;
     font-size:20px;
 }
-
-.home_btns a:first-child{
-    margin-left:0;
-}
 .home_btns a:nth-child(2){
     background-color:#00897b;
     border:3px solid #00897b;
@@ -89,5 +85,6 @@
     .home_btns a{
         padding:5 10px;
         font-size:15px;
+        margin: 0 10px;
     }
 }
