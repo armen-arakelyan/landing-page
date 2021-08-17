@@ -72,7 +72,7 @@
     }
     .team_members img{
         width: 100%;
-        height: 100%;
+        height: auto;
     }
     .icons img{
         width: 32px;
