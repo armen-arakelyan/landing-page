@@ -137,4 +137,14 @@
     .contacts_adresses {
         flex-direction: column;
     }
+    .contact_form_inputs{
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact_form_inputs input{
+        margin: 10px 0;
+    }
+    .modal_contact{
+        width: 90%;
+    }
 }

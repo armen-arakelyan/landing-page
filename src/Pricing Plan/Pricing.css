@@ -171,9 +171,17 @@
     }
     .pricing_card{
         margin: 20px 0;
-        width: auto;
+        width: 80%;
     }
     .price_about{
         margin:10px 0;
+    }
+    .modal_content{
+        width: 95%;
+        height: 65%;
+    }
+    .send_content{
+        width: 95%;
+        height: 65%;
     }
 }

@@ -69,10 +69,18 @@
 }
 
 @media screen and (max-width:1065px) {
+    .icon{
+        width: 32px;
+        height: 32px;
+    }
     .icons_about{
         width: auto;
     }
     .icon_text p{
         letter-spacing: 0;
+        font-size: 12px;
+    }
+    .icon_main_text h2{
+        font-size: 14px;
     }
 }
