@@ -81,4 +81,7 @@
     .slide_cursors{
         display: none;
     }
+    .team_members p:nth-child(2){
+        margin: 20px 0px;
+    }
 }   

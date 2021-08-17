@@ -147,4 +147,7 @@
     .modal_contact{
         width: 90%;
     }
+    .send_button{
+        width: auto;
+    }
 }
